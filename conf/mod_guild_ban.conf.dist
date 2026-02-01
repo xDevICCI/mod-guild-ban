@@ -1,0 +1,37 @@
+#
+# Module: mod-guild-ban
+# Description: Guild ban/blacklist system for AzerothCore
+#
+
+[worldserver]
+
+###################################################################################################
+#   MOD GUILD BAN CONFIGURATION
+###################################################################################################
+
+#
+#   GuildBan.Enable
+#       Description: Enable or disable the guild ban module
+#       Default:     1 - Enabled
+#                    0 - Disabled
+#
+
+GuildBan.Enable = 1
+
+#
+#   GuildBan.AllowOfficerBan
+#       Description: Allow guild officers (not just leader) to ban players
+#       Default:     0 - Only leader can ban
+#                    1 - Officers can also ban
+#
+
+GuildBan.AllowOfficerBan = 0
+
+#
+#   GuildBan.NotifyOnBannedJoinAttempt
+#       Description: Notify guild leader when a banned player tries to join
+#       Default:     1 - Enabled
+#                    0 - Disabled
+#
+
+GuildBan.NotifyOnBannedJoinAttempt = 1
